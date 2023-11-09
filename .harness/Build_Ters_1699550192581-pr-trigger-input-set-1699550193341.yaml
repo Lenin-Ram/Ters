@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Ters_1699550192581-pr-trigger-input-set
+  identifier: Build_Ters_1699550192581prtriggerinputset
+  orgIdentifier: Lenin_Playground
+  projectIdentifier: Lenin
+  pipeline:
+    identifier: Build_Ters_1699550192581
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
