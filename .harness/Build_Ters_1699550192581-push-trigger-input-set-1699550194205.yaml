@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Ters_1699550192581-push-trigger-input-set
+  identifier: Build_Ters_1699550192581pushtriggerinputset
+  orgIdentifier: Lenin_Playground
+  projectIdentifier: Lenin
+  pipeline:
+    identifier: Build_Ters_1699550192581
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
